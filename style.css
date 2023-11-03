@@ -3,10 +3,12 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: hsl(0, 0%, 90%);
+}
 .container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    background-color: hsl(0, 0%, 90%);
     gap: 30px;
     min-height: 100vh;
     margin: 50px;
@@ -115,4 +117,24 @@ span.s-p{
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     padding: 40px;
+}
+@media screen and (max-width:425px){
+    .container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .l-top{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .l-bottom{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
+@media screen and (max-width:768px) {
+    .container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
 }
