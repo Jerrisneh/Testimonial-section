@@ -106,17 +106,20 @@ span.s-p{
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     padding: 20px;
+    margin-bottom: 40px;
 }
 .pat-card{
     grid-column: 4/-1;
     background-color: hsl(219, 29%, 14%);
     border-radius: 15px;
     padding: 20px;
+    margin-bottom: 40px;
 }
 .kira-card{
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     padding: 40px;
+    margin-bottom: 40px;
 }
 @media screen and (max-width:425px){
     .container{
